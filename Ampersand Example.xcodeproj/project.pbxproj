@@ -13,6 +13,7 @@
 		48725CBC2359DC4A00614DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48725CBB2359DC4A00614DCF /* Assets.xcassets */; };
 		48725CBF2359DC4A00614DCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48725CBD2359DC4A00614DCF /* LaunchScreen.storyboard */; };
 		48725CC82359DD5100614DCF /* Ampersand in Frameworks */ = {isa = PBXBuildFile; productRef = 48725CC72359DD5100614DCF /* Ampersand */; };
+		48725CCA2359DEC400614DCF /* Avenir.json in Resources */ = {isa = PBXBuildFile; fileRef = 48725CC92359DEC400614DCF /* Avenir.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		48725CBB2359DC4A00614DCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48725CBE2359DC4A00614DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48725CC02359DC4A00614DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48725CC92359DEC400614DCF /* Avenir.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Avenir.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				48725CB82359DC4900614DCF /* Main.storyboard */,
 				48725CBB2359DC4A00614DCF /* Assets.xcassets */,
 				48725CBD2359DC4A00614DCF /* LaunchScreen.storyboard */,
+				48725CC92359DEC400614DCF /* Avenir.json */,
 				48725CC02359DC4A00614DCF /* Info.plist */,
 			);
 			path = "Ampersand Example";
@@ -130,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48725CCA2359DEC400614DCF /* Avenir.json in Resources */,
 				48725CBF2359DC4A00614DCF /* LaunchScreen.storyboard in Resources */,
 				48725CBC2359DC4A00614DCF /* Assets.xcassets in Resources */,
 				48725CBA2359DC4900614DCF /* Main.storyboard in Resources */,

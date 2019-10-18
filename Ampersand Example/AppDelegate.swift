@@ -7,13 +7,17 @@
 //
 
 import UIKit
+import Ampersand
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Register 'Avenir' as the application font.
+        let configurationURL = Bundle.main.url(forResource: "Avenir", withExtension: "json")!
+        UIFont.registerApplicationFont(withConfigurationAt: configurationURL)
+        
         return true
     }
 }
