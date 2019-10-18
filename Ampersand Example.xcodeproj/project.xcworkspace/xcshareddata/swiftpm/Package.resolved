@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Ampersand",
+        "repositoryURL": "https://github.com/darjeelingsteve/Ampersand",
+        "state": {
+          "branch": null,
+          "revision": "8998f750ffc16aca1bb7613069293bec4d4fcfca",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

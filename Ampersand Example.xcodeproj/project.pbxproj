@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		48725CBA2359DC4900614DCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48725CB82359DC4900614DCF /* Main.storyboard */; };
 		48725CBC2359DC4A00614DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48725CBB2359DC4A00614DCF /* Assets.xcassets */; };
 		48725CBF2359DC4A00614DCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48725CBD2359DC4A00614DCF /* LaunchScreen.storyboard */; };
+		48725CC82359DD5100614DCF /* Ampersand in Frameworks */ = {isa = PBXBuildFile; productRef = 48725CC72359DD5100614DCF /* Ampersand */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48725CC82359DD5100614DCF /* Ampersand in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +82,9 @@
 			dependencies = (
 			);
 			name = "Ampersand Example";
+			packageProductDependencies = (
+				48725CC72359DD5100614DCF /* Ampersand */,
+			);
 			productName = "Ampersand Example";
 			productReference = 48725CAF2359DC4900614DCF /* Ampersand Example.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +113,9 @@
 				Base,
 			);
 			mainGroup = 48725CA62359DC4900614DCF;
+			packageReferences = (
+				48725CC62359DD5100614DCF /* XCRemoteSwiftPackageReference "Ampersand" */,
+			);
 			productRefGroup = 48725CB02359DC4900614DCF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -334,6 +342,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48725CC62359DD5100614DCF /* XCRemoteSwiftPackageReference "Ampersand" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/darjeelingsteve/Ampersand";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48725CC72359DD5100614DCF /* Ampersand */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48725CC62359DD5100614DCF /* XCRemoteSwiftPackageReference "Ampersand" */;
+			productName = Ampersand;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 48725CA72359DC4900614DCF /* Project object */;
 }
