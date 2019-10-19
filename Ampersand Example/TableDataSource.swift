@@ -36,7 +36,8 @@ final class TableDataSource {
     /// The internal sections used to represent fonts created using text styles
     /// and fonts created using point sizes and weights.
     private let sections: [FontExampleSection] = {
-        var textStyleExamples = [
+        let textStyleExamples = [
+            TextStyleExample(textStyle: .largeTitle, name: ".largeTitle"),
             TextStyleExample(textStyle: .title1, name: ".title1"),
             TextStyleExample(textStyle: .title2, name: ".title2"),
             TextStyleExample(textStyle: .title3, name: ".title3"),
@@ -48,9 +49,6 @@ final class TableDataSource {
             TextStyleExample(textStyle: .caption1, name: ".caption1"),
             TextStyleExample(textStyle: .caption2, name: ".caption2")
         ]
-        if #available(iOS 11.0, *) {
-            textStyleExamples.insert(TextStyleExample(textStyle: .largeTitle, name: ".largeTitle"), at: 0)
-        }
         let fontWeightExamples = [
             FontWeightExample(weight: .ultraLight, name: ".ultraLight"),
             FontWeightExample(weight: .thin, name: ".thin"),
